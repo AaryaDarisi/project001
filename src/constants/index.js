@@ -212,4 +212,31 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+const products = [
+  {
+    name: "Product1",
+    description:
+      "Description of P1",
+    
+    image: NaN,
+    source_code_link: "https://github.com/",
+  },
+  {
+    name: "Product2",
+    description:
+      "Description of P2",
+    
+    image: NaN,
+    source_code_link: "https://github.com/",
+  },
+  {
+    name: "Product3",
+    description:
+      "Description of P3",
+    
+    image: NaN,
+    source_code_link: "https://github.com/",
+  },
+];
+
+export { services, technologies, experiences, testimonials, projects, products };
